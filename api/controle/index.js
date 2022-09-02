@@ -1,18 +1,16 @@
-// var Usuario = require('../modelos/usuarios');
-
 function inicio(req, res) {
     res.status(200).send({
-        message: 'Hello word!'
+        message: "Hello home",
     });
-};
+}
 
 function teste(req, res) {
     res.status(200).send({
-        message: 'Testing node server!'
+        message: "Testing index!",
     });
-};
+}
 
 module.exports = {
     inicio,
-    teste
-}
+    teste,
+};
